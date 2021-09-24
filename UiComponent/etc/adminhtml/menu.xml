@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Zidenyk_UiComponent::ui_app" module="Zidenyk_UiComponent" resource="Zidenyk_UiComponent::ui_app" sortOrder="35" title="UI Component" translate="title"/>
+        <add id="Zidenyk_UiComponent::ui_apps" title="UI Components" module="Zidenyk_UiComponent" translate="title" parent="Zidenyk_UiComponent::ui_app" resource="Zidenyk_UiComponent::ui_app"/>
+        <add id="Zidenyk_UiComponent::Zidenyk_ui_app" title="Kozar UI Component Study" module="Zidenyk_UiComponent" sortOrder="10" translate="title" action="ui_component/manage" parent="Zidenyk_UiComponent::ui_app" resource="Zidenyk_UiComponent::ui_app"/>
+    </menu>
+</config>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Zidenyk_HelloWorld1::helloworld1" title="Hello World"
+             module="Zidenyk_HelloWorld1" sortOrder="51"
+             resource="Zidenyk_HelloWorld1::helloworld1"/>
+
+        <add id="Zidenyk_HelloWorld1::post" title="Manage Posts"
+             module="Zidenyk_HelloWorld1" sortOrder="10"
+             action="Zidenyk_HelloWorld1/post" resource="Zidenyk_HelloWorld1::post"
+             parent="Zidenyk_HelloWorld1::helloworld1"/>
+
+        <add id="Zidenyk_HelloWorld1::hello_configuration" title="Configuration"
+             module="Zidenyk_HelloWorld1" sortOrder="99"
+             parent="Zidenyk_HelloWorld1::helloworld1"
+             action="adminhtml/system_config/edit/section/helloworld1"
+             resource="Zidenyk_HelloWorld1::helloworld1"/>
+
+    </menu>
+</config>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Zidenyk\AddDeclaretive\Api\Data\StudentInterface" type="Zidenyk\AddDeclaretive\Model\Student" />
+    <preference for="Zidenyk\AddDeclaretive\Api\Data\StudentSearchResultInterface" type="Zidenyk\AddDeclaretive\Model\StudentSearchResult" />
+    <preference for="Zidenyk\AddDeclaretive\Api\StudentRepositoryInterface" type="Zidenyk\AddDeclaretive\Model\StudentRepository" />
+</config>
